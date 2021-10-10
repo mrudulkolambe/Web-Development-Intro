@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basics of web dev</title>
+  </head>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+    <br /><br />
+  </header>
+  <body>
+    <form action="form.php">
+      <label for="name">
+        Name:
+        <input
+          type="text"
+          placeholder="Enter your name here!"
+          id="name"
+        /> </label
+      ><br /><br />
+      <label for="email"
+        >Email Id
+        <input
+          type="email"
+          placeholder="Enter your Email Id"
+          id="email"
+        /> </label
+      ><br /><br />
+      <label for="call"
+        >Would you like to recieve a call from us?
+        <input type="radio" name="call" value="yes" id="cally" /> YES
+        <input type="radio" name="call" value="no" id="calln" /> NO </label
+      ><br /><br />
+      <label for="department"
+        >Please state your department:
+        <select name="department" id="department">
+          <option value="computer">Computer Engineering</option>
+          <option value="electrical">Electrical Engineering</option>
+          <option value="mechanical">Mechanical Engineering</option>
+        </select> </label
+      ><br /><br />
+      <textarea
+        name="suggest"
+        id="suggestions"
+        placeholder="Enter your suggestions here!"
+        cols="30"
+        rows="10"
+      ></textarea><br><br>
+      <button type="submit">Submit your data</button>
+    </form>
+  </body>
+</html>
