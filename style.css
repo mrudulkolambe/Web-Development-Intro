@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 15px;
+    background-color: aqua;
+}
+.nav-elements{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+.heading{
+    font-size: 35px;
+}
+.heading-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: grey;
+}
+.welcome-img{
+    border-radius: 30px;
+    width: 300px;
+    border: 3px solid rgb(59, 176, 223);
+}
+.headimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+}
+.content{
+    background-color: cornflowerblue;
+    font-size: 20px;
+    padding: 20px;
+}
+.video{
+    height: 300px;
+    width: auto;
+    border: 6px solid cornflowerblue;
+    border-radius: 10px;
+}
+.video-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+}
+footer{
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+
+
+form{
+    width: 500px;
+    padding: 20px;
+}
+form input,
+form textarea{
+    margin: 10px;
+    height: 30px;
+    width: 400px;
+}
+form button{
+    padding: 5px 10px 5px 10px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
